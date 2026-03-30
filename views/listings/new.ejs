@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planora</title>
+</head>
+<body>
+    <h2>Create Listing:</h2>
+    <form method="post" action="/listings">
+        <input type="text" name="listing[title]" placeholder="Enter Titile" id=""><br><br>
+        <textarea name="listing[description]" placeholder="Enter Description" id=""></textarea><br><br>
+        <input type="text" name="listing[image]" id="" placeholder="Enter Image URL/Link"><br><br>
+        <input type="number" name="listing[price]" id="" placeholder="Enter Price"><br><br>
+        <input type="text" name="listing[location]" id="" placeholder="Enter Location"><br><br>
+        <input type="text" name="listing[country]" id="" placeholder="Enter Country"><br><br>
+        <button>ADD</button>    
+    </form>
+</body>
+</html>
